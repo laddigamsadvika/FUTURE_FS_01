@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laddigam Sadvika | Full Stack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8a619573d3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <h2 class="logo">Sadvika.</h2>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p class="subtitle">Aspiring Full Stack Developer | MCA Graduate</p>
+            <h1>Hi, I'm <span>Laddigam Sadvika</span></h1>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <!-- AI Generated Online Image -->
+                <img src="https://images.unsplash.com/photo-1581090700227-1e8b5d1b7d5f" alt="AI Developer Profile">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="section-title">About Me</h1>
+                <p class="about-text">
+                    I am a motivated MCA graduate with strong foundations in Web Development,
+                    Data Science, and Software Engineering. I am passionate about building
+                    modern, responsive, and user-friendly web applications.
+                </p>
+
+                <div class="skills-box">
+                    <h3>Core Skills</h3>
+                    <ul>
+                        <li>✔ HTML5, CSS3, JavaScript</li>
+                        <li>✔ Python & Data Visualization</li>
+                        <li>✔ SQL / MySQL</li>
+                        <li>✔ Responsive Web Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SERVICES -->
+<div id="services">
+    <div class="container">
+        <h1 class="section-title">My Services</h1>
+        <div class="services-list">
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Building responsive and interactive websites using modern web technologies.</p>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Data Analysis</h2>
+                <p>Transforming raw data into meaningful insights using Python and visualization tools.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- PORTFOLIO -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="section-title">Projects</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692">
+                <h3>Student Management System</h3>
+                <p>Database-driven web application to manage student records.</p>
+            </div>
+
+            <div class="work">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+                <h3>Sales Data Analysis</h3>
+                <p>Python-based analysis and visualization of business data.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="section-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> laddigamsadvika@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9908065396</p>
+            </div>
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){ sidemenu.style.right = "0"; }
+function closemenu(){ sidemenu.style.right = "-200px"; }
+</script>
+
+</body>
+</html>
