@@ -1,150 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Laddigam Sadvika | Full Stack Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sadvika | Python Full Stack Developer</title>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/8a619573d3.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- HEADER -->
-<div id="header">
-    <div class="container">
-        <nav>
-            <h2 class="logo">Sadvika Laddigam </h2>
-            <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-            </ul>
-            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
+<header>
+<div class="container nav-container">
+<h2 class="logo">Full Stack Web Developer</h2>
 
-        <div class="header-text">
-            <p class="subtitle">Aspiring Full Stack Developer | MCA Graduate</p>
-            <h1>Hi, I'm <span>Laddigam Sadvika</span></h1>
-            <a href="#contact" class="btn">Hire Me</a>
-        </div>
-    </div>
+<nav>
+<ul>
+<li><a href="#about" class="nav-btn highlight">About</a></li>
+<li><a href="#education" class="nav-btn ">Education</a></li>
+<li><a href="#skills" class="nav-btn highlight">Skills</a></li>
+<li><a href="#projects" class="nav-btn ">Projects</a></li>
+<li><a href="#contact" class="nav-btn highlight ">Contact</a></li>
+</ul>
+</nav>
 </div>
+</header>
+
+<!-- HERO -->
+<section class="hero reveal">
+<div class="container hero-grid">
+
+<div class="hero-text">
+
+<h1>Hi, I'm <span>Sadvika Laddigam</span></h1>
+
+<h3 class="typing-line">
+<span id="typing"></span>
+</h3>
+
+<p class="intro">
+MCA Graduate and dedicated Python Full Stack Developer 
+with a strong foundation in backend architecture and modern 
+frontend development, building scalable, secure, and efficient 
+web applications using Django and React.
+</p>
+
+<div class="social-icons">
+<a href="#"><i class="fab fa-linkedin"></i></a>
+<a href="#"><i class="fab fa-github"></i></a>
+</div>
+
+<div class="hero-buttons">
+<a href="#contact" class="btn primary">Hire Me</a>
+<a href="resume.pdf" class="btn secondary" download>Resume</a>
+</div>
+</div>
+
+<div class="hero-image">
+<img src="images/profile.jpeg" alt="Sadvika Profile">
+</div>
+
+</div>
+</section>
 
 <!-- ABOUT -->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <!-- AI Generated Online Image -->
-                <img src="https://images.unsplash.com/photo-1581090700227-1e8b5d1b7d5f" alt="Full Stack Developer Profile">
-            </div>
+<section id="about" class="section reveal">
+<div class="container">
+<h2>About Me</h2>
+<p>
+Detail-oriented developer with strong foundation in backend development,
+database management and API integration. Passionate about building
+real-world solutions and continuously learning modern technologies.
+</p>
+<p>
+With hands-on experience from my 4-month Data Science internship at Aspire, 
+I have worked on real-world machine learning models, data analysis pipelines,
+and web-based applications using Python, Django, Flask, and React.js.
+</p>
+<p>
+I thrive in environments that challenge me to think creatively — whether 
+designing RESTful APIs, implementing computer vision systems, or analyzing 
+business data to extract valuable insights.
+</p>
+</div>
+</section>
 
-            <div class="about-col-2">
-                <h1 class="section-title">About Me</h1>
-                <p class="about-text">
-                    I am a motivated MCA graduate with strong foundations in Web Development,
-                    Data Science, and Software Engineering. I am passionate about building
-                    modern, responsive, and user-friendly web applications.
-                </p>
-                
-                <p>With hands-on experience from my 4-month Data Science internship at Aspire, I have worked on real-world machine learning models, data analysis pipelines, and web-based applications using Python, Django, Flask, and React.js.</p>
-                <p>I thrive in environments that challenge me to think creatively — whether designing RESTful APIs, implementing computer vision systems, or analyzing business data to extract valuable insights.</p>
+<!-- EDUCATION -->
+<section id="education" class="section darker reveal">
+<div class="container">
+<h2>Education</h2>
 
-
-                <div class="skills-box">
-                    <h3>Core Skills</h3>
-                    <ul>
-                        <li>✔ HTML5, CSS3, JavaScript</li>
-                        <li>✔ Python & Data Visualization</li>
-                        <li>✔ SQL / MySQL</li>
-                        <li>✔ Responsive Web Design</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="education-card">
+<h3>MCA - Master of Computer Applications</h3>
+<p>MITS College | 2024 - 2026</p>
+<p>CGPA : 8.32 </p>
 </div>
 
-<!-- SERVICES -->
-<div id="services">
-    <div class="container">
-        <h1 class="section-title">My Services</h1>
-        <div class="services-list">
-
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Development</h2>
-                <p>Building responsive and interactive websites using modern web technologies.</p>
-            </div>
-
-            <div>
-                <i class="fa-brands fa-python"></i>
-                <h2>Data Analysis</h2>
-                <p>Transforming raw data into meaningful insights using Python and visualization tools.</p>
-            </div>
-
-        </div>
-    </div>
+<div class="education-card">
+<h3>Bachelor's Degree</h3>
+<p>Shri Gnanambica Degree College | 2020 - 2023</p>
+<p>CGPA : 8.00 </p>
 </div>
 
-<!-- PORTFOLIO -->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="section-title">Projects</h1>
-        <div class="work-list">
-
-            <div class="work">
-                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692">
-                <h3>Student Management System</h3>
-                <p>Database-driven web application to manage student records.</p>
-            </div>
-
-            <div class="work">
-                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
-                <h3>Sales Data Analysis</h3>
-                <p>Python-based analysis and visualization of business data.</p>
-            </div>
-
-        </div>
-    </div>
 </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section reveal">
+<div class="container">
+<h2>Technical Skills</h2>
+
+<div class="skills-grid">
+<div>Python</div>
+<div>Django</div>
+<div>React.js</div>
+<div>Flask</div>
+<div>HTML5</div>
+<div>CSS3</div>
+<div>JavaScript</div>
+<div>SQL</div>
+<div>MySQL</div>
+<div>MongoDB</div>
+<div>REST APIs</div>
+<div>Git & GitHub</div>
+</div>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section darker reveal">
+<div class="container">
+<h2>Projects</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+<div class="project-content">
+<h3>Smart Object Counting</h3>
+<p>AI-based real-time object detection using YOLO & OpenCV.</p>
+</div>
+<a href="#" class="project-btn">View Project</a>
+</div>
+
+<div class="project-card">
+<div class="project-content">
+<h3>Health Recommendation System</h3>
+<p>Machine Learning web app built with Flask & Python.</p>
+</div>
+<a href="#" class="project-btn">View Project</a>
+</div>
+
+<div class="project-card">
+<div class="project-content">
+<h3>Mini CRM System</h3>
+<p>Lead management web application using Django & SQL.</p>
+</div>
+<a href="#" class="project-btn">View Project</a>
+</div>
+
+</div>
+</div>
+</section>
 
 <!-- CONTACT -->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="section-title">Contact Me</h1>
-                <p><i class="fa-solid fa-envelope"></i> laddigamsadvika@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i> +91 9908065396</p>
-            </div>
+<section id="contact" class="section reveal">
+<div class="container contact-container">
+<h2>Contact Me</h2>
 
-            <div class="contact-right">
-                <form>
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </div>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+
 </div>
+</section>
 
-<script>
-var sidemenu = document.getElementById("sidemenu");
-function openmenu(){ sidemenu.style.right = "0"; }
-function closemenu(){ sidemenu.style.right = "-200px"; }
-</script>
+<footer>
+<p>© 2026 Sadvika Laddigam | Python Full Stack Developer</p>
+</footer>
 
+<script src="script.js"></script>
 </body>
 </html>
