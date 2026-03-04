@@ -39,6 +39,7 @@ TASK_1_Personal_Portfolio/
 
 - Hero Section
 - About Me
+- Education
 - Skills
 - Projects
 - Contact
