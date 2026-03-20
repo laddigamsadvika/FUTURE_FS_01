@@ -4,7 +4,7 @@ This is my professional personal portfolio website built to showcase my skills, 
 
 The portfolio highlights my background, technical skills, project work, and contact information in a clean and modern design.
 ## 🚀 Live Website
-🔗 https://laddigamsadvika.github.io/FUTURE_FS_01/
+🔗 https://laddigamsadvika.github.io/Portfolio/
 ## 🛠️ Technologies Used
 
 - HTML5
